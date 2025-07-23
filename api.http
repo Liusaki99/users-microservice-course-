@@ -1,0 +1,9 @@
+####
+# Create new user
+POST http://localhost:3001/api/users
+Content-Type: application/json
+{
+    "email": "cinthya.martinez@walmart.com",
+    "name": "Cinthya"
+}
+####
